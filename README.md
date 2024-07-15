@@ -21,3 +21,37 @@ This repository contains a Python script that utilizes the YOLO (You Only Look O
    ```bash
    git clone https://github.com/your-username/yolo-object-tracking.git
    cd yolo-object-tracking
+
+2. **Create a virtual environment**:
+
+    ```bash
+    pip install pipenv
+    pipenv shell
+
+## Usage
+
+1. **Download the YOLOv8 model weights**:
+
+Download the yolov8n.pt weights file from the official YOLO repository or another trusted source and place it in the project directory.
+
+2. **Place your video file**:
+
+Place the video file you want to process (e.g., test2.mp4) in the project directory.
+
+3. **Run the script**:
+
+    ```bash
+    python yolo_object_tracking.py
+
+
+## Script Details
+
+The yolo_object_tracking.py script:
+
+Loads the YOLOv8 model.
+Opens the video file specified.
+Reads and processes each frame of the video.
+Detects and tracks objects using the YOLO model.
+Plots the detection results.
+Resizes the frame for better visualization.
+Displays the processed frames in a dynamically resized window.
