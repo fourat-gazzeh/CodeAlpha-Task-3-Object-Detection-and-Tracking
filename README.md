@@ -55,3 +55,16 @@ Detects and tracks objects using the YOLO model.
 Plots the detection results.
 Resizes the frame for better visualization.
 Displays the processed frames in a dynamically resized window.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+Ultralytics for the YOLO model and weights.
+OpenCV for the computer vision library.
+
+## Contact
+For any questions or suggestions, please open an issue or contact your-email@example.com.
